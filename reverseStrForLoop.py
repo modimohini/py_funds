@@ -1,4 +1,4 @@
-Reverse a given number and return true if it is the same as the original number
+#Reverse a given number and return true if it is the same as the original number
 
 # appending char in reverse orders
 given_srt =  '12156'  # '121'
