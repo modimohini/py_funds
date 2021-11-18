@@ -1,17 +1,29 @@
+"""
 
-""" 
 s = "Hello World Hello World "
 s = s.replace("Hello","Universe")
+v = s.replace("World", "HI")
 print(s) 
+print(v)
+
 
 s = "That I ever did see. Dusty as the handle on the door"
 index = s.find("Dusty")
+p = s.find("I")
 print(index) 
+print(p)
 
+#find a word 
 s = "That I ever did see. Dusty as the handle on the door"
 
 if "Dusty" in s:
     print("query found")
+count = 0
+if "the" in s:
+    count += 1
+    print(str(count) + " found it!")
+
+
 
 # define strings                                                         
 firstname = "Bugs"
@@ -19,10 +31,12 @@ lastname = "Bunny"
 
 # define our sequence                                                    
 sequence = (firstname,lastname)
-
+seq = (lastname, firstname)
 # join into new string                                                   
 name = " ".join(sequence)
 print(name)
+
+newseq = " ".join(seq)
 
 words = ["How","are","you","doing","?"]
 sentence = ' '.join(words)
@@ -43,6 +57,7 @@ x = list(word)
 print(x)
 
 
+
 import random
 
 # Create a random floating point number and print it.
@@ -61,7 +76,7 @@ print('Hello ' + name)
 job = input('What is your job? ')
 print('Your job is ' + job)
 
-num = input('Give me a number? ')
+num = int(input('Give me a number? '))
 print('You said: ' + str(num))
 
 
@@ -103,10 +118,11 @@ num = [1,2,3,4,5,6,7,8,9]
 print('x^2 loop:')
 for x in num:
     y = x * x
-    print(str(x) + '*' + str(x) + '=' + str(y))
+    print(str(x) + ' * ' + str(x) + ' = ' + str(y))
+
 
 # while
-x = 3                              
+x = 7                              
 while x < 10:
     print(x)
     x = x + 1
@@ -122,6 +138,7 @@ def f(x,y):
     return x*y
 
 print(f(3,4))
+
 
 # list 
 list = [ "New York", "Los Angles", "Boston", "Denver" ]
@@ -149,6 +166,7 @@ print(x)
 x.pop()
 print(x)
 
+"""
 # list sort 
 x = [3,6,21,1,5,98,4,23,1,6]
 x.sort()
@@ -357,4 +375,44 @@ if __name__ == "__main__":
     data_list = [0, 5, 10, 3]
     print(new_data(data_list) == old_data(data_list))
 """
+
+# Dictionary
+
+""" _dict = {1: 'name', 2: [4,5,6], 'animal' : 'dog'}
+print(_dict)
+print(_dict[2])
+print(_dict['animal'])
+ """
+
+""" # Creating a Dictionary with dict method 
+Dict = dict({'emp1': {1: 'Ges'},
+        'emp2': {'Name': 'Forg'}
+        })
+
+Dict[0] = 'jerry'
+Dict[2] = 'tom', 2, 5, 6 # adding set of values 
+print(Dict)
+
+# adidng nested values 
+Dict[0] = 'hello' 
+
+print("updating value: ")
+print (Dict)
+
+# Adding Nested Key value to Dictionary
+Dict[5] = {'Nested' :{'1' : 'Life'}}
+print("\nAdding a Nested Key: ")
+print(Dict)
+
+print(Dict.get(5), Dict.get("emp1"))
+
+# deleting a key using pop() method 
+popp = Dict.pop(2)
+print('\n dict after deleting: ' + str(popp) + '\n' + str(Dict))
+
+print("\n after pop")
+poppy = Dict.popitem()
+print(Dict)
+Dict.clear()
+print (Dict)
 
