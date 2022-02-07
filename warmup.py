@@ -378,11 +378,10 @@ if __name__ == "__main__":
 
 # Dictionary
 
-""" _dict = {1: 'name', 2: [4,5,6], 'animal' : 'dog'}
+_dict = {1: 'name', 2: [4,5,6], 'animal' : 'dog'}
 print(_dict)
 print(_dict[2])
 print(_dict['animal'])
- """
 
 """ # Creating a Dictionary with dict method 
 Dict = dict({'emp1': {1: 'Ges'},
@@ -416,3 +415,7 @@ print(Dict)
 Dict.clear()
 print (Dict)
 
+import sys
+file_path = 'randomfile.txt'
+sys.stdout = open(file_path, "w")
+print("This text will be added to the file")
