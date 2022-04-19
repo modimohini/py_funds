@@ -7,3 +7,4 @@ for x in given_list:
         print("devisible num " , x)
     else:
         print("not divisible by 5 ", "given number ", x )
+# comm  
