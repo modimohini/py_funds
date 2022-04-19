@@ -11,3 +11,4 @@ while (given_int > 0):
  
     given_int = given_int // 10
     print(digit, end = " ")
+print("\r")

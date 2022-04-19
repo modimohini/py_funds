@@ -7,4 +7,3 @@ def evenString(str):
 
 evenString(user_str)
 
-

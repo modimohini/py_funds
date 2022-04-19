@@ -1,6 +1,6 @@
 """Given a list of numbers, return True if first and last number of a list is same"""
 
-given_list = [10, 20, 30, 40, 10]
+given_list = [10, 20, 30, 40, 10, 990]
 
 first_num = given_list[0]
 print(first_num)

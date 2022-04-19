@@ -9,7 +9,7 @@ for x in given_srt[::-1]:
 
 print(rever_str)
 
-# reverse with function 
+# reverse with functi
 def reverse_slicing(slice):
     return slice[::-1]
 
