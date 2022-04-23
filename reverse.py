@@ -1,20 +1,19 @@
-""" given = "121"
+given = "121"
 
-rev =  reversed(given)
+rev1 =  list(reversed(given))
+rev = "".join(rev1)
 print(rev)
-for x in rev:
-    print(x, " ", rev)
-
-    if x == rev:
-        print("true")
-    else:
-        print("false") """
+if rev == given:
+    print(True)
+else:
+    print(False)
 
 
 
 
 
-word = "Easy"
+
+""" word = "Easy"
 x = list(word)
 print(x)
 
@@ -34,4 +33,4 @@ def combo(x):
         else:
             continue
 
-combo(x)
+combo(x) """
