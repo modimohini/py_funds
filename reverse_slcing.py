@@ -6,7 +6,6 @@ rever_str = ''
 
 for x in given_srt[::-1]:
     rever_str =  rever_str + x
-
 print(rever_str)
 
 # reverse with functi
