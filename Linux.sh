@@ -77,7 +77,7 @@ ip addr show
 
 # How to check for free disk space in Linux?
 df -ah
-
+$ du -sh /var/log/* 2>/dev/null |sort -h 
 # How to see if a Linux service is running?
 
 # How to check the size of a directory in Linux?

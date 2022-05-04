@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 var = 'hello world'
 li = var.split()
 print(li)
@@ -11,7 +10,6 @@ print(li2[0:5])
 print(li2[:5])
 
 print(li2[6:])
-=======
 message = input("enter msg: ")
 
 print("lowercase: ", message.lower())
@@ -31,4 +29,3 @@ print(string)
 ls = list(message)
 print(ls)
 
->>>>>>> e1c6f05695284d80256512292e4e7a733994727c

@@ -8,4 +8,5 @@ while num > 0:
     result = result * base 
     num = num - 1
     print(result)
+    
 
