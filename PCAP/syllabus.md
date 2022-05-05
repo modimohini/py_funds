@@ -1,4 +1,4 @@
-# Examp Topic, Details & Weights
+# [Examp Topic, Details & Weights|https://pythoninstitute.org/pcap]
 * Modules and Packages	- import variants; advanced qualifiying for nested modules
     - dir(); sys.path variable
     - math: ceil(), floor(), trunc(), factorial(), hypot(), sqrt(); 
