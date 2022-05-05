@@ -1,4 +1,4 @@
-# (py_funds|<https://pythoninstitute.org/pcap>)
+# py_funds
 range 
 
 # find the number, string, word in the list 
